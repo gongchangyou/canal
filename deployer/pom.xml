@@ -42,14 +42,14 @@
             <groupId>com.alibaba.otter</groupId>
             <artifactId>connector.rocketmq</artifactId>
             <version>${project.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>*</artifactId>
-                    <groupId>*</groupId>
-                </exclusion>
-            </exclusions>
-            <classifier>jar-with-dependencies</classifier>
-            <scope>provided</scope>
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <artifactId>*</artifactId>-->
+<!--                    <groupId>*</groupId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--            <classifier>jar-with-dependencies</classifier>-->
+<!--            <scope>provided</scope>-->
         </dependency>
         <dependency>
             <groupId>com.alibaba.otter</groupId>

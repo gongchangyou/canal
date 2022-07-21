@@ -3,6 +3,9 @@ package com.alibaba.otter.canal.deployer;
 import java.util.Properties;
 
 import com.alibaba.otter.canal.connector.core.config.MQProperties;
+import com.alibaba.otter.canal.connector.core.producer.AbstractMQProducer;
+import com.alibaba.otter.canal.connector.rocketmq.config.RocketMQProducerConfig;
+import com.alibaba.otter.canal.connector.rocketmq.producer.CanalRocketMQProducer;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
